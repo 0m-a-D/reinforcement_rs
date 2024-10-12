@@ -1,7 +1,3 @@
-mod agent;
-mod environment;
-mod neural_net;
-mod utils;
 use rand::{thread_rng, Rng};
 use raylib::prelude::*;
 
