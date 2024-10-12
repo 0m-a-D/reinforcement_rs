@@ -23,8 +23,6 @@ jobs:
         sudo apt-get install -yqq cmake pkg-config
         sudo apt-get install -yqq libasound2-dev libx11-dev libxrandr-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev libxcursor-dev libxinerama-dev
         sudo apt-get install -yqq llvm-14 libclang-14-dev clang-14
-        sudo ln -s /usr/bin/clang-14 /usr/bin/clang
-        sudo ln -s /usr/bin/llvm-config-14 /usr/bin/llvm-config
 
     - name: Build
       run: cargo build --verbose
