@@ -11,4 +11,5 @@ more specifically: dutch elegibility traces.
 
 -- gradually decrease temperature β in softmax to slowly increase exploitation.
 
-Learning policy: [**Q-learning**](https://en.wikipedia.org/wiki/Q-learning) instead of [**SARSA**](https://en.wikipedia.org/wiki/State%E2%80%93action%E2%80%93reward%E2%80%93state%E2%80%93action) -> q(st,at) = q(st,at) + ⍺(Rt+1 + Ɣmax(q(st,a')) - q(st,at))
+Learning policy: [**Q-learning**](https://en.wikipedia.org/wiki/Q-learning) instead of [**SARSA**](https://en.wikipedia.org/wiki/State%E2%80%93action%E2%80%93reward%E2%80%93state%E2%80%93action) 
+-> q(st,at) = q(st,at) + ⍺(Rt+1 + Ɣmax(q(st,a')) - q(st,at))
